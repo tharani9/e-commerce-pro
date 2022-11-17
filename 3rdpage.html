@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cd shoppe</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="3rdpage.css">
+<script src="https://kit.fontawesome.com/8f27d68390.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<a class="font1" href="2ndpage.html">Home</a>
+<a class="font2" href="#">Explore</a>
+<a class="font3" href="login.html">My account</a>
+<img class="delta" src="crystal_logo-removebg-preview (1).png">
+<p class="font5">CD Shoppe</p></div>
+<div class="navbar">
+<ul class="u1">
+<li class="navbar1"><p style="color: grey;">Search products..</p></li>
+<li class="navbar1"><p><span style="color: grey;">Filter by:</span><b> All categories</b></p></li>
+<li><p><span style="color: grey;">Sort by:</span><b>Relevance<b></p></li>
+</ul>
+</div>
+<h1><i class="fas fa-shopping-cart"></i></h1>
+<div class="cart">
+<section>
+<div>
+<img class="img" src="handbag.jpg">
+<p>Goucci Leather bags</p>
+<ul>
+<li><h6>Rs.5,999</h6></li>
+<li><p><b>Star:</b>&nbsp4.2</p></li>
+</ul>
+<span></span>
+<button class="button1">Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+<div>
+<img class="img" src="sunglass.jpg">
+<p>Louis Vuitton Sunglass</p>
+<ul>
+<h6>Rs.21,899</h6></li>
+<li><p><b>Star:</b>&nbsp4.8</p></li>
+</ul>
+<span></span>
+<button class="button1">Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+ <div>
+<img class="img" src="Watch.jpg">
+<p>Fastrack Watch</p>
+<ul>
+<li><h6>Rs.2,799</h6></li>
+<li><p><b>Star:</b>&nbsp3.7</p></li>
+</ul>
+<span></span>
+<button class="button1">Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+ <div>
+<img class="img" src="travelbag.jpg">
+<p>Travel bag combo</p>
+<ul>
+<li><h6>Rs.8,999</h6></li>
+<li><p><b>Star:</b>&nbsp4.2</p></li>
+</ul>
+<span></span>
+<button class="button1">Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+</section><section>
+<div>
+<img  class="img" src="headphone.jpg">
+<p>Headphones</p>
+<ul>
+<li><h6>Rs.15,999</h6></li>
+<li><p><b>Star:</b>&nbsp4.2</p></li>
+</ul>
+<span></span>
+<button class="button1">Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+<div>
+<img class="img" src="necklas.jpg">
+<p>Swarovksi Pendant</p>
+<ul>
+<li><h6>Rs.7,589</h6></li>
+<li><p><b>Star:</b>&nbsp4.5</p></li>
+</ul>
+<span></span>
+<button class="button1">Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+<div>
+<img class="img" src="shoe.jpg">
+<p>Goucci Leather bags</p>
+<ul>
+<li><h6>Rs.6,599</h6></li>
+<li><p><b>Star:</b>&nbsp4.2</p></li>
+</ul>
+<span></span>
+<button class="button1" >Add to cart</button>
+<button class="button2">Buy Now</button>  
+
+</div>
+
+
+</section></div>
+
+<div class="select">
+
+</div>
+
+</body>
+</html>
+
+<script type="text/javascript">
+var noti=document.querySelector('h1');
+var select=document.querySelector('.select');
+var button=document.getElementsByTagName('button');
+for(but of button)
+{
+but.addEventListener('click',(e)=>{
+var add = Number(noti.getAttribute('data-count')||0);
+noti.setAttribute('data-count',add + 1);
+noti.classList.add('zero');
+
+//copy and paste element//
+var parent=e.target.parentNode;
+var clone=parent.cloneNode(true);
+select.appendChild(clone);
+clone.lastElementChild.innerText="Check-out";
+if(clone){
+noti.onclick=()=>{
+select.classList.toggle('display');
+
+
+}
+
+  }
+
+
+}
+)
+}
+
+</script>
+

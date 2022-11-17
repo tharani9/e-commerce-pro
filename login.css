@@ -1,0 +1,102 @@
+body{
+    padding: 280px;
+    border: 20px solid  #25D9F1;
+    
+    }
+    .box{
+    position: fixed;
+    top: 120px;
+    right: 100px;
+    width: 30%;
+    height: 300px;
+    }
+    .font1{
+    font-weight: bold;
+    font-family: "bevan",sans-serif;
+    font-size: 50px;
+    }
+    a.link1{
+    background-color: #FE8505;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    a.link1:hover{
+    background-color:#FE05FE ;
+    }
+    .font2{
+    font-weight: bold;
+    font-family: "bevan",sans-serif;
+    }
+    .font3{
+    font-weight: bold;
+    font-family: "bevan",sans-serif;
+    position: fixed;
+    top: 50px;
+    right: 250px;
+    }
+    .font4{
+    font-weight: bold;
+    font-family: "bevan",sans-serif;
+    position: fixed;
+    top: 50px;
+    right: 160px;
+    }
+    
+    input[type=text], select {
+            width: 150%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid  #25D9F1;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+      input[type=password], select {
+            width: 150%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid  #25D9F1;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+      .girl{
+      position: fixed;
+      top: 150px;
+    left: 200px;
+    height: 370px;
+    width: 500px;
+      }
+      .delta{
+      position: fixed;
+      top:20px;
+      left: 30px;
+       height: 90px;
+       width: 90px;
+      }
+      .font5{
+      font-style: italic;
+      font-family: "arialNovacond-lightitalic",sans-serif;
+      font-size: 20px;
+      position: fixed;
+      top:30px;
+      left: 95px;
+      }
+      @media only screen and (max-width:600px){
+      img{
+        height: 200px;
+      width: 300px;
+      position: fixed;
+      top: 140px;
+      margin-left: -100px;
+      }
+      }
+      .font1{
+      font-size: x-large;
+      }
+    
